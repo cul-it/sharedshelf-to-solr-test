@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://digital.library.cornell.edu/" />
+<title>aerial-201907</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">aerial-201907</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>${homepage}catalog/ss:201907</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Tompkins County, New York - Cornell University Library Digital Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=canvas</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/8d959c92-79b5-4900-a922-6d06e8c9a7a5.jpg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=New York State Aerial Photographs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=1954</td>
+	<td>1954</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-description_tesim</td>
+	<td>This aerial photograph is centered near Halseyville in Trumansburg (14886) in Tompkins County New York.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=American</td>
+	<td>American</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Tompkins County (N.Y.)--Aerial photographs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Tompkins County (N.Y.)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=United States</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=42.5264480622174,-76.6340928697244</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Cornell Institute for Resource Information Systems (IRIS) Aerial Photograph Collection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=black-and-white prints (photographs)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-source_tesim</td>
+	<td>Image and original data from Cornell University Library</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-rights_tesim</td>
+	<td>This image has been made available by the Cornell University Library to support education and scholarship. It has made a reasonable effort to secure any permissions needed in order to make available for personal or research use the materials included in ARTstor, but would like to learn more about its digital holdings and hear from any copyright owners who are not properly identified so that it may make the necessary corrections. If you have any additional information about the material or would like to suggest a correction, please contact copyright@cornell.edu. Your use of this image is potentially restricted by two different entities. ARTstor limits you to the permitted uses specified in the ARTstor Digital Library Terms and Conditions of Use (http://www.artstor.org/info/about/terms_conditions.jsp) regardless of the copyright status of the work. If the image is protected by copyright, you may also need to contact one or more copyright owners for any use that is not permitted under the ARTstor Terms and Conditions of Use or not otherwise permitted by law. Determining whether permissions are necessary, and obtaining such permissions, is your sole responsibility. Note that If the image is in the public domain, no additional permission from Cornell University Library is required, as stated in the guidelines on the use of public domain images found at http://cdl.library.cornell.edu/guidelines.html.</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=svg.leaflet-zoom-animated</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Download</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/8d959c92-79b5-4900-a922-6d06e8c9a7a5.jpg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
