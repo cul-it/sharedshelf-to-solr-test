@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://digital.library.cornell.edu/" />
+<title>bastides-3853786</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">bastides-3853786</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>${homepage}catalog/ss:3853786</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Villeneuve d'Aveyron: Non Ruelle To Market Square - Cornell University Library Digital Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-plus-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-plus-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-collection_tesim</td>
+	<td>exact:Collection:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=John Reps Collection - Bastides</td>
+	<td>John Reps Collection - Bastides</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-date_tesim</td>
+	<td>exact:Date:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=2009</td>
+	<td>2009</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-description_tesim</td>
+	<td>exact:Description:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-description_tesim</td>
+	<td>Non Ruelle To Market Square</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-subject_tesim</td>
+	<td>exact:Subject:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Bastides</td>
+	<td>Bastides</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-location_tesim</td>
+	<td>exact:Location:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Aveyron, Midi-Pyrénées, France</td>
+	<td>Aveyron, Midi-Pyrénées, France</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-country_location_tesim</td>
+	<td>exact:Country:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=France</td>
+	<td>France</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-notes_tesim</td>
+	<td>exact:Notes:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-notes_tesim</td>
+	<td>Level site with irregular streets of much earlier sauvetee joined to somewhat more organized access ways of bastide.<br />Irregular shape bordered by some arcaded buildings and major street leading to a high gate.<br />A remarkable combination of unplanned and quasi-planned streets and building sites. In recent years many older buildings extensively modernized.</td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[7]/br</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-founder_tesim</td>
+	<td>exact:Founder:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Alphonse de Poitiers</td>
+	<td>Alphonse de Poitiers</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-where_ssim</td>
+	<td>exact:Coordinates:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=44.437211,2.032868</td>
+	<td>44.437211,2.032868</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=svg.leaflet-zoom-animated</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/d02cbce2-130e-4ddb-af50-cbff232134d8_size4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/d02cbce2-130e-4ddb-af50-cbff232134d8_size4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
