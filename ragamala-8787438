@@ -22,7 +22,7 @@
 	<td></td>
 </tr>
 <tr>
-	<td>assertElementPresent</td>
+	<td>waitForElementPresent</td>
 	<td>css=canvas</td>
 	<td></td>
 </tr>
