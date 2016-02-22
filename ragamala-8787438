@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://digital.library.cornell.edu/" />
+<title>ragamala-8787438</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">ragamala-8787438</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>${homepage}catalog/ss:8787438</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Ramkali - Cornell University Library Digital Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=canvas</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/d42536ce-fef6-423d-8532-b0617794c8a8_size4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-plus-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-plus-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Ragamala Paintings</td>
+	<td>Ragamala Paintings</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Unknown</td>
+	<td>Unknown</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=India--Civilization</td>
+	<td>India--Civilization</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=India</td>
+	<td>India</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-deity_tesim</td>
+	<td>Central Deity:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Ramkali</td>
+	<td>Ramkali</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=watercolors (Drawings and Watercolors)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=India ink (ink)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=handwriting</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-id_number_ssi</td>
+	<td>RM_5_06_017</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/d42536ce-fef6-423d-8532-b0617794c8a8_size4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[6]/a</td>
+	<td>3</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
