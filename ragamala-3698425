@@ -141,7 +141,11 @@
 	<td>//div[3]/dl/dd[12]/a</td>
 	<td>2</td>
 </tr>
-
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[12]/br</td>
+	<td>1</td>
+</tr>
 </tbody></table>
 </body>
 </html>
