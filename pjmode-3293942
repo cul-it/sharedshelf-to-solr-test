@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://digital.library.cornell.edu/" />
+<title>pjmode-3293904</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">pjmode-3293904</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>${homepage}catalog/ss:3293942</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Accident Toll in U.S. - Cornell University Library Digital Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=canvas</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-collection_tesim</td>
+	<td>exact:Collection:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Persuasive Maps: PJ Mode Collection</td>
+	<td>Persuasive Maps: PJ Mode Collection</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-creator_tesim</td>
+	<td>Creator(s):</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Sundberg, Edwin L.</td>
+	<td>Sundberg, Edwin L.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-date_tesim</td>
+	<td>exact:Date:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=1946</td>
+	<td>1946</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-subject_tesim</td>
+	<td>exact:Subject:</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Disaster/Health/Environment</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Pictorial</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[4]/a</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[4]/br</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-pj_full_title_tesim</td>
+	<td>Full Title:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-pj_full_title_tesim</td>
+	<td>Accident Toll in U.S.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-extent_tesim</td>
+	<td>exact:Extent:</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd.blacklight-extent_tesim</td>
+	<td>39 x 55</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-id_number_tesim</td>
+	<td>ID Number:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-id_number_tesim</td>
+	<td>1335.01</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-reference_tesim</td>
+	<td>exact:References:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-reference_tesim</td>
+	<td>For full details on references, see http://persuasivemaps.library.cornell.edu/content/references.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-collectors_notes_tesim</td>
+	<td>Collector's Notes:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-collectors_notes_tesim</td>
+	<td>With the end of World War II, accidental deaths in the U.S. suddenly increased, a development that &quot;reverses a downward trend.&quot; The leading cause was motor vehicle accidents, not a surprise as returning soldiers took to the roads in greater number (and with an increased tolerance for risk).<br />The grim reaper adorns the title of the map, and the crosses on each state offer a lesson in persuasive cartography. They add no specific factual information, which is fully conveyed by the death rate numbers and color coding for each state. But it is Sundberg's decision to add the crosses that gives the map the desired impact.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-mat_tech_tesim</td>
+	<td>Materials/Techniques:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=printing</td>
+	<td>printing</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-work_type_tesim</td>
+	<td>Work Type:</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=maps</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=prints (visual works)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=charts (graphic documents)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[11]/a</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[11]/br</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-source_tesim</td>
+	<td>exact:Source:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-source_tesim</td>
+	<td>The Sunday News, November 24, 1946, pp. 8-9.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-rights_tesim</td>
+	<td>exact:Rights:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-rights_tesim</td>
+	<td>For important information about copyright and use, see http://persuasivemaps.library.cornell.edu/copyright.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>http://stor.artstor.org/stor/f9ef49e3-1bcb-453d-afa4-387f79b98aaa.jpg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>http://stor.artstor.org/stor/f9ef49e3-1bcb-453d-afa4-387f79b98aaa.jpg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

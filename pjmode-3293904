@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://digital.library.cornell.edu/" />
+<title>pjmode-3293904</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">pjmode-3293904</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>${homepage}catalog/ss:3293904</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Alaska - Cornell University Library Digital Collections</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=canvas</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-collection_tesim</td>
+	<td>exact:Collection:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Persuasive Maps: PJ Mode Collection</td>
+	<td>Persuasive Maps: PJ Mode Collection</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-creator_tesim</td>
+	<td>Creator(s):</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Chapin, Robert M.</td>
+	<td>Chapin, Robert M.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-date_tesim</td>
+	<td>exact:Date:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=1958</td>
+	<td>1958</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-subject_tesim</td>
+	<td>exact:Subject:</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Unusual Projection</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Communism &amp; Cold War</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Politics &amp; Government</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Pictorial</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[4]/a</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[4]/br</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-pj_full_title_tesim</td>
+	<td>Full Title:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-pj_full_title_tesim</td>
+	<td>Alaska</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-extent_tesim</td>
+	<td>exact:Extent:</td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=dd.blacklight-extent_tesim</td>
+	<td>81 x 65</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-id_number_tesim</td>
+	<td>ID Number:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-id_number_tesim</td>
+	<td>1359.01</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-reference_tesim</td>
+	<td>exact:References:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-reference_tesim</td>
+	<td>For full details on references, see http://persuasivemaps.library.cornell.edu/content/references.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-collectors_notes_tesim</td>
+	<td>Collector's Notes:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-collectors_notes_tesim</td>
+	<td>This map of Alaska by R.M. Chapin originally appeared in Time Magazine on June 9, 1958, and was reprinted in large format for classroom use. The timing is important: after decades of dispute, the U.S. House of Representatives approved statehood for Alaska on May 26, 1952, and debate moved to the Senate. This map forcefully presents the argument for Alaska's strategic significance. Air bases and missile launching sites are prominently displayed - U.S. and Soviet - along with U.S. DEW (Distant Early Warning) Line and other military facilities. Oil and other strategic commodities are located, and an inset globe shows that Alaska is almost equidistant from Washington, Pearl Harbor, Moscow and &quot;Peking.&quot; The Congress granted final approval of Alaska statehood on July 7, 1958.<br />R.M. Chapin produced a number of cold war maps for Time Magazine. See, e.g., ID #1333 &quot;Communist Contagion&quot;, #1349 &quot;Europe From Moscow&quot;, #2010 &quot;West's Germany&quot;, #2012 &quot;Two Worlds&quot;.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-source_tesim</td>
+	<td>exact:Source:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-source_tesim</td>
+	<td>reprint in enlarged format from Time Magazine, June 9, 1958.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-rights_tesim</td>
+	<td>exact:Rights:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-rights_tesim</td>
+	<td>For important information about copyright and use, see http://persuasivemaps.library.cornell.edu/copyright.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>http://stor.artstor.org/stor/ee7798b9-bb66-43c7-83de-90bb790280bb.jpg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyLocation</td>
+	<td>http://stor.artstor.org/stor/ee7798b9-bb66-43c7-83de-90bb790280bb.jpg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
