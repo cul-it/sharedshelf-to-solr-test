@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://digital.library.cornell.edu/" />
+<title>beyondtaj-3862542</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">beyondtaj-3862542</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>${homepage}catalog/ss:3862542</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-plus-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-plus-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=i.fa.fa-plus-circle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-collection_tesim</td>
+	<td>exact:Collection:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Beyond the Taj: Architectural Traditions and Landscape Experience in South Asia</td>
+	<td>Beyond the Taj: Architectural Traditions and Landscape Experience in South Asia</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-description_tesim</td>
+	<td>exact:Description:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-description_tesim</td>
+	<td>Sculpt.: reclining deity</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-subject_tesim</td>
+	<td>exact:Subject:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Deities</td>
+	<td>Deities</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Koils</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>link=Aiyanar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[3]/a</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>assertXpathCount</td>
+	<td>//div[3]/dl/dd[3]/br</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-creation_site_location_tesim</td>
+	<td>Creation Site:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=Tamil Nadu (Tamil Nadu, India)</td>
+	<td>Tamil Nadu (Tamil Nadu, India)</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-country_location_tesim</td>
+	<td>exact:Country:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>link=India</td>
+	<td>India</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-id_number_ssi</td>
+	<td>exact:Identifier:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-id_number_ssi</td>
+	<td>MCD_06258</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-source_tesim</td>
+	<td>exact:Source:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-source_tesim</td>
+	<td>MacDougall, R. D.</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dt.blacklight-rights_tesim</td>
+	<td>exact:Rights:</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=dd.blacklight-rights_tesim</td>
+	<td>For uses outside ARTstor's terms and conditions, please contact: Bonnie MacDougall, Department of Architecture, 129 Sibley Dome, Cornell University, Ithaca, NY 14853, (607) 255-5290<br />Please note that if this image is under copyright, you may need to contact one or more copyright owners for any use that is not permitted under the ARTstor Terms and Conditions of Use or not otherwise permitted by law. While ARTstor tries to update contact information, it cannot guarantee that such information is always accurate. Determining whether those permissions are necessary, and obtaining such permissions, is your sole responsibility.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/ee611e98-12d4-4583-b722-eb3dbee29d57_size4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Download</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertLocation</td>
+	<td>http://stor.artstor.org/stor/ee611e98-12d4-4583-b722-eb3dbee29d57_size4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>goBackAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
